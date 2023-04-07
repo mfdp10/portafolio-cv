@@ -132,6 +132,7 @@ p {
   width: 100%;
   /* border: thin solid #002333; */
 }
+
 .carousel input {
   display: none;
 }
@@ -265,6 +266,11 @@ p {
   background-size: cover;
   background-position: center;
   background-attachment: var(--hero-attachment);
+}
+
+.hero-image-content {
+  width: 100%;
+  min-width: 320px;
 }
 
 .hero-image-opacity {
